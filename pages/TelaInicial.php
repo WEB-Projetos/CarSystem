@@ -13,14 +13,14 @@
     </div>
     <div class="side-bar">
         <div class="side-bar-lista">
-            <ul>
-                <li>COMPRAS</li>
-                <li>VENDAS</li>
-                <li>PRODUTOS</li>
-                <li>CLIENTES</li>
-                <li>FORNECEDORES</li>
-                <li>FUNCIONÁRIO</li>
-                <li>PROMOÇÕES</li>
+        <ul>
+                <li> <a href="../pages/cadCompra.php">COMPRAS</a> </li>
+                <li> <a href="../pages/cadVenda.php">VENDAS</a> </li>
+                <li> <a href="../pages/listaProduto.php">PRODUTOS</a> </li>
+                <li> <a href="../pages/listaCliente.php">CLIENTES</a> </li>
+                <li> <a href="../pages/lisaFornecedor.php">FORNECEDORES</a> </li>
+                <li> <a href="../pages/listaFuncionário.php">FUNCIONÁRIO</a> </li>
+                <li> <a href="">PROMOÇÕES</a> </li>
             </ul>
         </div>
     </div>

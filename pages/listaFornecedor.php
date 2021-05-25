@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="stylesheet" href="../css/cadastrarProduto.css">
-    <link rel="stylesheet" href="../css/cadCompra.css">
+    <link rel="stylesheet" href="../css/listaCliente.css">
     <link rel="icon" type="image/png" href="images/logoc.png"/>
     <title>Car System</title>
 </head>
@@ -24,7 +23,7 @@
                     <a href="#"><img src="../img/search.png" alt=""></a>
                 </div>
                 <div class="sub-titulo">
-                    <h2>ADICIONAR VENDA</h2>
+                    <h2>FORNECEDOR</h2>
                 </div>
                 <div class="button-novo">
                     <a href="">
@@ -48,34 +47,19 @@
             </ul>
         </div>
     </div>
+
+
     <div class="form-box">
         <div class="box-titulos">
             <ul>
-                <li>Produto</li>
-                <li>Quantidade</li>
-                <li>Valor Bruto</li>
-                <li>Total</li>
+                <li>Nome</li>
+                <li>CPF</li>
                 <li>Editar</li>
                 <li>Remover</li>
             </ul>
         </div>
     </div>
 
-    <div class="box-final">
-        
-        <div class="cancel">
-            <span>CANCELAR VENDA</span>
-        </div>
-        <div class="cadastro">
-        <input type="button" value="CONCLUIR VENDA" onclick="exibeAlert()">
-        </div>
-    </div>
-
-    <script>
-        function exibeAlert() {
-            alert("Venda Concluída");
-        }
-    </script>
 
     </body>
 </html>

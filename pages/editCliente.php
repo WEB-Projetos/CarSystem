@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="stylesheet" href="../css/cadastrarProduto.css">
-    <link rel="icon" type="image/png" href="../images/logoc.png"/>
+    <link rel="stylesheet" href="../css/editCliente.css">
+    <link rel="icon" type="image/png" href="images/logoc.png"/>
     <title>Car System</title>
 </head>
 <body>
     <header class="nav-bar">
         <div class="hearder">
             <div class="logo-navbar">
-                <a href="../pages/telaInicial.php"><img src="../img/logoc.png" alt=""></a>
+                <a href="./telaInicial.php"><img src="../img/logoc.png" alt=""></a>
                 <div class="usuario-navbar">
                     <a href="#"><img src="../img/user.png" alt=""></a>
             </div>
@@ -23,27 +23,25 @@
                     <a href="#"><img src="../img/search.png" alt=""></a>
                 </div>
                 <div class="sub-titulo">
-                    <h2>ADICIONAR CLIENTE</h2>
+                    <h2>CLIENTES</h2>
                 </div>
                 <div class="button-novo">
-                    <a href="">
                         <img src="../img/plus.svg" alt="">
-                        <h3>ADCIONAR</h3>
-                    </a>
+                        <h3>EDITAR</h3>
                 </div>
             </div>
         </div>
     </header>
     <div class="side-bar">
         <div class="side-bar-lista">
-        <ul>
-                <li> <a href="../pages/cadCompra.php">COMPRAS</a> </li>
-                <li> <a href="../pages/cadVenda.php">VENDAS</a> </li>
-                <li> <a href="../pages/listaProduto.php">PRODUTOS</a> </li>
-                <li> <a href="../pages/listaCliente.php">CLIENTES</a> </li>
-                <li> <a href="../pages/lisaFornecedor.php">FORNECEDORES</a> </li>
-                <li> <a href="../pages/listaFuncionário.php">FUNCIONÁRIO</a> </li>
-                <li> <a href="">PROMOÇÕES</a> </li>
+            <ul>
+                <li>COMPRAS</li>
+                <li>VENDAS</li>
+                <li>PRODUTOS</li>
+                <li>CLIENTES</li>
+                <li>FORNECEDORES</li>
+                <li>FUNCIONÁRIO</li>
+                <li>PROMOÇÕES</li>
             </ul>
         </div>
     </div>
@@ -74,17 +72,14 @@
         </div>
 
     <div class="box-final">
-        <div class="cancel">
-            <span>CANCELAR CADASTRO</span>
-        </div>
         <div class="cadastro">
-            <input type="button" value="CONCLUIR CADASTRO" onclick="exibeAlert()">
+            <input type="button" value="CONCLUIR EDIÇÃO" onclick="exibeAlert()">
         </div>
     </div>
 
     <script>
         function exibeAlert() {
-            alert("Cadastro Concluído");
+            alert("Edição Concluída");
         }
     </script>
           

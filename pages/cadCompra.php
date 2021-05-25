@@ -12,7 +12,7 @@
     <header class="nav-bar">
         <div class="hearder">
             <div class="logo-navbar">
-                <a href="/pages/TelaInicial.php"><img src="../img/logoc.png" alt=""></a>
+                <a href="./telaInicial.php"><img src="../img/logoc.png" alt=""></a>
                 <div class="usuario-navbar">
                     <a href="#"><img src="../img/user.png" alt=""></a>
             </div>
@@ -50,13 +50,14 @@
     </div>
     <div class="form-box">
         <div class="box-titulos">
-            <ul>
-                <li>Produto</li>
-                <li>Quantidade</li>
-                <li>Valor Bruto</li>
-                <li>Total</li>
-                <li>Editar</li>
-                <li>Remover</li>
+        <ul>
+                <li> <a href="../pages/cadCompra.php">COMPRAS</a> </li>
+                <li> <a href="../pages/cadVenda.php">VENDAS</a> </li>
+                <li> <a href="../pages/listaProduto.php">PRODUTOS</a> </li>
+                <li> <a href="../pages/listaCliente.php">CLIENTES</a> </li>
+                <li> <a href="../pages/lisaFornecedor.php">FORNECEDORES</a> </li>
+                <li> <a href="../pages/listaFuncionário.php">FUNCIONÁRIO</a> </li>
+                <li> <a href="">PROMOÇÕES</a> </li>
             </ul>
         </div>
     </div>
@@ -66,9 +67,15 @@
             <span>CANCELAR COMPRA</span>
         </div>
         <div class="cadastro">
-            <span>CONCLUIR COMPRA</span>
+        <input type="button" value="CONCLUIR COMPRA" onclick="exibeAlert()">
         </div>
     </div>
+
+    <script>
+        function exibeAlert() {
+            alert("Compra Concluída");
+        }
+    </script>
 
     </body>
 </html>

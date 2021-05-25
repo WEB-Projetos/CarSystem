@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="stylesheet" href="../css/cadastrarProduto.css">
-    <link rel="stylesheet" href="../css/cadCompra.css">
+    <link rel="stylesheet" href="../css/editCliente.css">
     <link rel="icon" type="image/png" href="images/logoc.png"/>
     <title>Car System</title>
 </head>
@@ -24,13 +23,11 @@
                     <a href="#"><img src="../img/search.png" alt=""></a>
                 </div>
                 <div class="sub-titulo">
-                    <h2>ADICIONAR VENDA</h2>
+                    <h2>FUNCIONÁRIO</h2>
                 </div>
                 <div class="button-novo">
-                    <a href="">
                         <img src="../img/plus.svg" alt="">
-                        <h3>ADCIONAR</h3>
-                    </a>
+                        <h3>EDITAR</h3>
                 </div>
             </div>
         </div>
@@ -48,34 +45,44 @@
             </ul>
         </div>
     </div>
-    <div class="form-box">
-        <div class="box-titulos">
-            <ul>
-                <li>Produto</li>
-                <li>Quantidade</li>
-                <li>Valor Bruto</li>
-                <li>Total</li>
-                <li>Editar</li>
-                <li>Remover</li>
-            </ul>
+
+        <div class="form-box">
+            <form action="" class="form-produto">
+                <div class="form-name">
+                    <span>NOME</span>
+                    <input type="text" name="user">
+                </div>
+                <div class="form-rg">
+                    <span>RG</span>
+                    <input type="text">
+                </div>
+                <div class="form-cpf">
+                    <span>CPF/CNPJ</span>
+                    <input type="text">
+                </div>
+                <div class="form-endereco">
+                    <span>ENDEREÇO</span>
+                    <input type="text">
+                </div>
+                <div class="form-tel">
+                    <span>TELEFONE</span>
+                    <input type="text">
+                </div>
+            </form>
         </div>
-    </div>
 
     <div class="box-final">
-        
-        <div class="cancel">
-            <span>CANCELAR VENDA</span>
-        </div>
         <div class="cadastro">
-        <input type="button" value="CONCLUIR VENDA" onclick="exibeAlert()">
+            <input type="button" value="CONCLUIR EDIÇÃO" onclick="exibeAlert()">
         </div>
     </div>
 
     <script>
         function exibeAlert() {
-            alert("Venda Concluída");
+            alert("Edição Concluída");
         }
     </script>
+          
 
-    </body>
+</body>
 </html>
