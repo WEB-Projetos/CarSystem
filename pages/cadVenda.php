@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="stylesheet" href="../css/cadastrarProduto.css">
+    <link rel="stylesheet" href="../css/cadCompra.css">
     <title>Car System</title>
 </head>
 <body>
@@ -46,8 +47,28 @@
             </ul>
         </div>
     </div>
+    <div class="form-box">
+        <div class="box-titulos">
+            <ul>
+                <li>Produto</li>
+                <li>Quantidade</li>
+                <li>Valor Bruto</li>
+                <li>Total</li>
+                <li>Editar</li>
+                <li>Remover</li>
+            </ul>
+        </div>
+    </div>
 
-          
+    <div class="box-final">
+        
+        <div class="cancel">
+            <span>CANCELAR VENDA</span>
+        </div>
+        <div class="cadastro">
+            <span>CONCLUIR VENDA</span>
+        </div>
+    </div>
 
-</body>
+    </body>
 </html>

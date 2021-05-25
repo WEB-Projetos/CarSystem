@@ -107,9 +107,49 @@ body {
 }
 
 .form-box {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     margin-top: 180px;
     margin-left: 230px;
     width: 170vh;
     height: 30vw;
     background-color: #C4C4C4;
+    line-height: 3;
+}
+
+.form-produto input {
+    background-color: #A0A0A0;
+    margin-left: 20px;
+    color: #333;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+.form-produto span {
+    margin-left: 20px;
+}
+
+
+.box-final {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    float: right;
+    margin-right: 70px;
+    line-height: 3;
+}
+
+.cancel {
+    text-align: center;
+    width: 15vw;
+    height: 6vh;
+    background-color: #C4C4C4;
+}
+
+.cadastro {
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+    width: 15vw;
+    height: 6vh;
+    background-color: #03D124;
 }

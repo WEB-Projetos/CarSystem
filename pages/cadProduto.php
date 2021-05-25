@@ -13,7 +13,7 @@
                 <a href="/pages/TelaInicial.php"><img src="../img/logoc.png" alt=""></a>
                 <div class="usuario-navbar">
                     <a href="#"><img src="../img/user.png" alt=""></a>
-            </div>
+                </div>
             </div>    
         </div>
         <div class="sub-navbar">
@@ -47,6 +47,43 @@
         </div>
     </div>
 
+        <div class="form-box">
+            <form action="" class="form-produto">
+                <div class="form-name">
+                    <span>NOME</span>
+                    <input type="text" name="user">
+                </div>
+                <div class="form-rg">
+                    <span>MARCA</span>
+                    <input type="text">
+                </div>
+                <div class="form-cpf">
+                    <span>ANO</span>
+                    <input type="text">
+                </div>
+                <div class="form-endereco">
+                    <span>COR</span>
+                    <input type="text">
+                </div>
+                <div class="form-tel">
+                    <span>QTD.</span>
+                    <input type="text">
+                </div>
+                <div class="form-tel">
+                    <span>VALOR</span>
+                    <input type="text">
+                </div>
+            </form>
+        </div>
+
+    <div class="box-final">
+        <div class="cancel">
+            <span>CANCELAR CADASTRO</span>
+        </div>
+        <div class="cadastro">
+            <span>CONCLUIR CADASTRO</span>
+        </div>
+    </div>
           
 
 </body>

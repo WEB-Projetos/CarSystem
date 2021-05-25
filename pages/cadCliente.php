@@ -22,7 +22,7 @@
                     <a href="#"><img src="../img/search.png" alt=""></a>
                 </div>
                 <div class="sub-titulo">
-                    <h2>ADICIONAR CLIENTE</h2>
+                    <h2>ADICIONAR PRODUTO</h2>
                 </div>
                 <div class="button-novo">
                     <a href="">
@@ -47,6 +47,39 @@
         </div>
     </div>
 
+        <div class="form-box">
+            <form action="" class="form-produto">
+                <div class="form-name">
+                    <span>NOME</span>
+                    <input type="text" name="user">
+                </div>
+                <div class="form-rg">
+                    <span>RG</span>
+                    <input type="text">
+                </div>
+                <div class="form-cpf">
+                    <span>CPF/CNPJ</span>
+                    <input type="text">
+                </div>
+                <div class="form-endereco">
+                    <span>ENDEREÇO</span>
+                    <input type="text">
+                </div>
+                <div class="form-tel">
+                    <span>TELEFONE</span>
+                    <input type="text">
+                </div>
+            </form>
+        </div>
+
+    <div class="box-final">
+        <div class="cancel">
+            <span>CANCELAR CADASTRO</span>
+        </div>
+        <div class="cadastro">
+            <span>CONCLUIR CADASTRO</span>
+        </div>
+    </div>
           
 
 </body>

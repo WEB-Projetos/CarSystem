@@ -1,0 +1,14 @@
+.box-titulos {
+    width: 170vh;
+    height: 7vh;
+    background-color: #13293D;
+    font-size: 20px;
+    color: white;
+}
+
+.box-titulos ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    padding-right: 65px;
+}
