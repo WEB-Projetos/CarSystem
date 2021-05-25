@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="stylesheet" href="../css/cadastrarProduto.css">
     <link rel="stylesheet" href="../css/cadCompra.css">
+    <link rel="icon" type="image/png" href="images/logoc.png"/>
     <title>Car System</title>
 </head>
 <body>

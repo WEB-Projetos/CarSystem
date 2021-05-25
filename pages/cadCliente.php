@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="stylesheet" href="../css/cadastrarProduto.css">
+    <link rel="icon" type="image/png" href="images/logoc.png"/>
     <title>Car System</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
                     <a href="#"><img src="../img/search.png" alt=""></a>
                 </div>
                 <div class="sub-titulo">
-                    <h2>ADICIONAR PRODUTO</h2>
+                    <h2>ADICIONAR CLIENTE</h2>
                 </div>
                 <div class="button-novo">
                     <a href="">
