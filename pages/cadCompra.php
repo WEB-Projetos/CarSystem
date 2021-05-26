@@ -12,7 +12,7 @@
     <header class="nav-bar">
         <div class="hearder">
             <div class="logo-navbar">
-                <a href="./telaInicial.php"><img src="../img/logoc.png" alt=""></a>
+                <a href="/pages/TelaInicial.php"><img src="../img/logoc.png" alt=""></a>
                 <div class="usuario-navbar">
                     <a href="#"><img src="../img/user.png" alt=""></a>
             </div>
@@ -37,19 +37,6 @@
     </header>
     <div class="side-bar">
         <div class="side-bar-lista">
-            <ul>
-                <li>COMPRAS</li>
-                <li>VENDAS</li>
-                <li>PRODUTOS</li>
-                <li>CLIENTES</li>
-                <li>FORNECEDORES</li>
-                <li>FUNCIONÁRIO</li>
-                <li>PROMOÇÕES</li>
-            </ul>
-        </div>
-    </div>
-    <div class="form-box">
-        <div class="box-titulos">
         <ul>
                 <li> <a href="../pages/cadCompra.php">COMPRAS</a> </li>
                 <li> <a href="../pages/cadVenda.php">VENDAS</a> </li>
@@ -60,6 +47,22 @@
                 <li> <a href="">PROMOÇÕES</a> </li>
             </ul>
         </div>
+    </div>
+    <div class="form-box">
+        <div class="box-titulos">
+            <ul>
+                <li>Produto</li>
+                <li>Quantidade</li>
+                <li>Valor Bruto</li>
+                <li>Total</li>
+                <li>Editar</li>
+                <li>Remover</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="compra-1">
+        
     </div>
 
     <div class="box-final">

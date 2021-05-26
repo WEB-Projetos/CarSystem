@@ -26,7 +26,7 @@
                     <h2>CLIENTES</h2>
                 </div>
                 <div class="button-novo">
-                    <a href="">
+                    <a href="./cadCliente.php">
                         <img src="../img/plus.svg" alt="">
                         <h3>ADCIONAR</h3>
                     </a>
@@ -43,7 +43,6 @@
                 <li> <a href="../pages/listaCliente.php">CLIENTES</a> </li>
                 <li> <a href="../pages/lisaFornecedor.php">FORNECEDORES</a> </li>
                 <li> <a href="../pages/listaFuncionário.php">FUNCIONÁRIO</a> </li>
-                <li> <a href="">PROMOÇÕES</a> </li>
             </ul>
         </div>
     </div>
@@ -58,8 +57,20 @@
                 <li>Remover</li>
             </ul>
         </div>
+        <div class="box-titulos-2">
+            <ul>
+                <li>Marco Souza</li>
+                <li>07526978500</li>
+                <li> <a href="./editCliente.php">Editar</a> </li>
+                <li> <input type="button" value="Remover" onclick="exibeAlert()"></li>
+            </ul>
+        </div>
     </div>
 
-
+    <script>
+        function exibeAlert() {
+            alert("Deseja remover o item?");
+        }
+    </script>
     </body>
 </html>

@@ -29,6 +29,7 @@
       <img class="foto" src="../img/Fiat_argo.png" alt="">
       <img class="foto" src="../img/toro-r.png" alt="">
     </div>
+    
     <div class="opcoes-inicio">
       <div class="compra">
         <a href="./cadCompra.php">

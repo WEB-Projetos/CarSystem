@@ -26,7 +26,7 @@
                     <h2>FUNCIONARIO</h2>
                 </div>
                 <div class="button-novo">
-                    <a href="">
+                    <a href="./cadFuncionario.php">
                         <img src="../img/plus.svg" alt="">
                         <h3>ADCIONAR</h3>
                     </a>
@@ -58,8 +58,20 @@
                 <li>Remover</li>
             </ul>
         </div>
+        <div class="box-titulos-2">
+            <ul>
+                <li>Maria Cruz</li>
+                <li>08257845200</li>
+                <li> <a href="./editFuncionario.php">Editar</a> </li>
+                <li> <input type="button" value="Remover" onclick="exibeAlert()"></li>
+            </ul>
+        </div>
     </div>
 
-
+    <script>
+        function exibeAlert() {
+            alert("Deseja remover o item?");
+        }
+    </script>
     </body>
 </html>

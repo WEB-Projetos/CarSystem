@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link rel="stylesheet" href="../css/listaCliente.css">
+    <link rel="stylesheet" href="../css/listaProduto.css">
     <link rel="icon" type="image/png" href="images/logoc.png"/>
     <title>Car System</title>
 </head>
@@ -26,7 +26,7 @@
                     <h2>PRODUTOS</h2>
                 </div>
                 <div class="button-novo">
-                    <a href="">
+                    <a href="./cadProduto.php">
                         <img src="../img/plus.svg" alt="">
                         <h3>ADCIONAR</h3>
                     </a>
@@ -54,12 +54,27 @@
             <ul>
                 <li>Nome</li>
                 <li>Ano</li>
-                <!-- <li>Infos</li> -->
+                <li>Infos</li>
                 <li>Editar</li>
                 <li>Remover</li>
             </ul>
         </div>
+        <div class="box-titulos-2">
+            <ul>
+                <li>Fiat Uno</li>
+                <li>2019</li>
+                <li>Infos</li>
+                <li> <a href="./editCliente.php">Editar</a> </li>
+                <li> <input type="button" value="Remover" onclick="exibeAlert()"></li>
+            </ul>
+        </div>
     </div>
+
+    <script>
+        function exibeAlert() {
+            alert("Deseja remover o item?");
+        }
+    </script>
 
 
     </body>

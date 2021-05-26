@@ -26,7 +26,7 @@
                     <h2>FORNECEDOR</h2>
                 </div>
                 <div class="button-novo">
-                    <a href="">
+                    <a href="./cadFornecedor.php">
                         <img src="../img/plus.svg" alt="">
                         <h3>ADCIONAR</h3>
                     </a>
